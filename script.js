@@ -29,7 +29,6 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
-
 const header = document.querySelector('.header');
 
 const message = document.createElement('div');
