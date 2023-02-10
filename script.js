@@ -29,3 +29,6 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
+
+const message = document.createElement('div');
+message.classList.add('cookie message')
