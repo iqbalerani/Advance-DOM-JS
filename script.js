@@ -29,6 +29,7 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
+
 const header = document.querySelector('.header');
 
 const message = document.createElement('div');
@@ -41,4 +42,6 @@ message.innerHTML = 'We use cookie for improved functionality and analytics . <b
 header.append(message);
 
 //Delete elements
-
+document.querySelector('.btn--close--cookie').addEventListener('click', function(){
+  message.remove();
+})
