@@ -41,4 +41,3 @@ message.innerHTML = 'We use cookie for improved functionality and analytics . <b
 header.append(message);
 
 //Delete elements
-
